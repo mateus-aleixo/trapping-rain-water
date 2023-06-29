@@ -5,22 +5,23 @@
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github mateus-aleixo/trapping-rain-water))
 
-(authors "Author Name")
+(authors "Mateus Aleixo")
 
-(maintainers "Maintainer Name")
+(maintainers "Mateus Aleixo")
 
-(license LICENSE)
+(license MIT)
 
 (documentation https://url/to/documentation)
 
 (package
  (name trapping_rain_water)
- (synopsis "A short synopsis")
- (description "A longer description")
+ (synopsis "Calculate the amount of trapped water in a histogram")
+ (description
+  "This OCaml code calculates the amount of trapped water in a histogram represented by an array of heights. It uses a two-pointer approach to traverse the histogram and determine the trapped water.")
  (depends ocaml dune)
  (tags
-  (topics "to describe" your project)))
+  ("array" "histogram" "water trapping")))
 
 ; See the complete stanza docs at https://dune.readthedocs.io/en/stable/dune-files.html#dune-project
