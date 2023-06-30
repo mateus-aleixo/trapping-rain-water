@@ -25,9 +25,9 @@ This OCaml code calculates the amount of trapped water in a histogram represente
 
 7. The program will calculate the amount of trapped water and display the result.
 
-## Example
+## Examples
 
-Here's an example usage of the program:
+Here are some examples of the program's usage:
 ```
 Enter the number of elements (1-20000): 12
 Enter the elements of the array (space-separated): 0 1 0 2 1 0 1 3 2 1 2 1 
